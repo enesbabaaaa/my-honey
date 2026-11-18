@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#050509" />
+    <meta name="description" content="I love you — sana özel karanlık bir aşk ekranı." />
+    <title>I Love You</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="matrix-page" id="matrix-page">
+      <canvas id="matrix-canvas" aria-hidden="true"></canvas>
+      <div class="fog fog--top" aria-hidden="true"></div>
+      <div class="fog fog--bottom" aria-hidden="true"></div>
+      <div class="grain" aria-hidden="true"></div>
+
+      <div class="top-chrome" aria-hidden="true">
+        <span class="top-chrome__dot"></span>
+        <span class="top-chrome__path">/love/you.html</span>
+        <span class="top-chrome__code">♡</span>
+      </div>
+
+      <section class="love-stage" aria-labelledby="love-title">
+        <p class="stage-kicker">/aşkım için özel</p>
+        <button class="love-display" id="love-display" type="button" aria-label="Mesajı değiştir">
+          <span class="love-display__eyebrow" id="love-eyebrow">I</span>
+          <span class="love-display__word" id="love-word">LOVE</span>
+          <span class="love-display__subword" id="love-subword">YOU</span>
+          <span class="love-display__cursor" aria-hidden="true"></span>
+        </button>
+        <h1 id="love-title" class="visually-hidden">I love you</h1>
+        <p class="stage-hint" id="stage-hint">ekrana dokun</p>
+      </section>
+
+      <div class="floating-note floating-note--one">SENİ<br />SEVİYORUM</div>
+      <div class="floating-note floating-note--two">I<br />LOVE<br />YOU</div>
+      <div class="floating-note floating-note--three">YOU<br />ARE<br />MY<br />HOME</div>
+      <div class="floating-note floating-note--four">AŞKIM</div>
+      <div class="floating-note floating-note--five">LOVE<br />IS<br />A<br />CHOICE</div>
+
+      <div class="corner-line corner-line--left" aria-hidden="true"></div>
+      <div class="corner-line corner-line--right" aria-hidden="true"></div>
+      <p class="bottom-signature">for Ümmühan <span>♡</span></p>
+      <div class="tap-ripple" id="tap-ripple" aria-hidden="true"></div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
